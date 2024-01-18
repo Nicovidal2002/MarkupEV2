@@ -1,0 +1,17 @@
+div {
+    background-color: purple;
+    width: 200px;
+    padding: 80px;
+    height: 50%;
+    align-items: center;
+    border-radius: 30px;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    text-align: center;
+}

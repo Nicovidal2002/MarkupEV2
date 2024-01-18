@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball scores</title>
+    <script src="basketball.js"></script>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Basketball scores</h1>
+        <div class="input-group">
+            <img src="./IMG/basketball-court.jpeg" alt="ball court">
+            <div id="numbers">
+                <label for="score1">Three Pointers</label>
+                <input type="number" id="score1" value="0">
+
+                <label for="score2">Two-Pointers</label>
+                <input type="number" id="score2" value="0">
+
+                <label for="score3">Free Shots</label>
+                <input type="number" id="score3" value="0">
+            </div>
+        </div>
+        <div id="But">
+            <button onclick="calculate()">Calculate</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+        <div>
+            <h2>Total:</h2>
+            <p>0</p>
+        </div>
