@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE parent [
+    <!ELEMENT parent (son*, daughter+, gender?)>
+    <!ELEMENT son (#PCDATA)>
+    <!ELEMENT daughter (#PCDATA)>
+    <!ELEMENT gender (#PCDATA)>
+]>
+<parent>
+    <son>Anxo</son>
+    <son>Pedro</son>
+    <son>Marcos</son>
+    <daughter>Nerea</daughter>
+    <daughter>Lucía</daughter>
+    <gender></gender>
+</parent>
+
+
+
+* (asterisk): This means that the element can occur zero or more times. For example, <!ELEMENT son (#PCDATA)*> would mean that the <son> element can appear any number of times, including not at all.
+
+? (question mark): This means that the element is optional and can occur zero or one time. For example, <!ELEMENT gender (#PCDATA)?> would mean that the <gender> element can appear once or not at all.
+    
++ (plus sign): This means that the element must occur one or more times. For example, <!ELEMENT daughter (#PCDATA)+> would mean that the <daughter> element must appear at least once.

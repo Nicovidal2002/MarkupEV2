@@ -1,0 +1,6 @@
+<!ELEMENT parent (son+,daughter+,gender?)>
+<!ELEMENT son (#PCDATA)>
+<!ATTLIST son age NMTOKEN #IMPLIED>
+<!ELEMENT daughter (#PCDATA)>
+<!ATTLIST daughter nacionality NMTOKEN #FIXED "Spanish">
+<!ELEMENT gender EMPTY>

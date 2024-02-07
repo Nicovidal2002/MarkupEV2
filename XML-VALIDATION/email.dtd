@@ -1,0 +1,4 @@
+<!ELEMENT parent (son+,daughter+,gender?)>
+<!ELEMENT son (#PCDATA)>
+<!ELEMENT daughter (#PCDATA)>
+<!ELEMENT gender EMPTY>

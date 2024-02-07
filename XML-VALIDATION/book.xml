@@ -1,0 +1,23 @@
+<!DOCTYPE booklist [
+    <!ELEMENT booklist (book)+>
+    <!ELEMENT book (bookname*,author+,price?,homepage)>
+    <!ELEMENT bookname (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT homepage (#PCDATA)>
+]>
+
+<booklist>
+    <book>
+        <bookname>Butifarra</bookname>
+        <author>Luciana Christopher</author>
+        <price>15.90</price>
+        <homepage>http://www.butifarra.com/</homepage>
+    </book>
+    <book>
+        <bookname>Pato</bookname>
+        <author>Dario Fernandez Suarez Gomez Poligloto</author>
+        <price>29.90</price>
+        <homepage>http://www.pato.com/</homepage>
+    </book>
+</booklist>
