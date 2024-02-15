@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE parent SYSTEM "email.dtd">
+<!DOCTYPE parent SYSTEM "PARENT2-Ex2.dtd">
 <parent>
     <son>John</son>
     <daughter>Jane</daughter>

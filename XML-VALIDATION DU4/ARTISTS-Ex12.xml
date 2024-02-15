@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE artists SYSTEM "./ARTISTS-Ex12.dtd">
+
+<artists>
+    <artist name="Dario Bagaluma" artistID="DB1" />
+    <artist name="Fernando Tordo" artistID="FT" />
+    <album name="Butifarron" albumArtistID="DB1" contributingArtistIDs="DB1 FT" />
+</artists>

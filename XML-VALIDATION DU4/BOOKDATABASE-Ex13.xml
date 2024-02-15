@@ -1,0 +1,35 @@
+<!DOCTYPE bookDatabase SYSTEM "BOOKDATABASE-Ex13.dtd">
+<bookDatabase>
+    <book bookID="ISBN-0-13-xxx">
+        <author>Elliotte Rusty Harold</author>
+        <content>
+            <chapter numberID="1">XML Structure, Syntax</chapter>
+            <description>
+                <section>XML Fundamentals</section>
+            </description>
+        </content>
+        <content>
+            <chapter numberID="2">Document Type Definitions</chapter>
+            <description>
+                <section>Element Declarations</section>
+                <section>Attributes Declarations</section>
+                <summary>summary of the chapter 2</summary>
+            </description>
+        </content>
+    </book>
+    <book bookID="ISBN-0-586-xxx">
+        <author>Ian Foster</author>
+        <author>Carl Kesselman</author>
+        <image>grid architecture</image>
+        <content>
+            <chapter numberID="1">Grids in Context</chapter>
+            <description />
+        </content>
+        <newchapters>
+            <chapter numberID="20">Network structure</chapter>
+            <description>
+                <section>The Future(1998-2005)</section>
+            </description>
+        </newchapters>
+    </book>
+</bookDatabase>

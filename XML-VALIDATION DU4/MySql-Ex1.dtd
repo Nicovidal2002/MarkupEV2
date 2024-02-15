@@ -1,0 +1,14 @@
+<!ELEMENT mysql (customers,sales)>
+<!ELEMENT customers (customer+)>
+<!ELEMENT customer (first_name,last_name,email_address)>
+<!ATTLIST customer customer_id CDATA #REQUIRED>
+<!ATTLIST customer number_of_complaints CDATA #REQUIRED>
+<!ELEMENT first_name EMPTY>
+<!ELEMENT last_name EMPTY>
+<!ELEMENT email_address EMPTY>
+<!ELEMENT sales (sale+)>
+<!ELEMENT sale (purchase,date_of_purchase)>
+<!ATTLIST sale item_code CDATA #REQUIRED>
+<!ATTLIST sale costumer_id CDATA #IMPLIED>
+<!ELEMENT purchase EMPTY>
+<!ELEMENT date_of_purchase EMPTY>
