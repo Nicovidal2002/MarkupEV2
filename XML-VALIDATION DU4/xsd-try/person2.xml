@@ -1,0 +1,5 @@
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="person2.xsd">
+    <name>xoan</name>
+    <age>8</age>
+</person>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE mysql SYSTEM "MySql-Ex11.dtd">
+<!DOCTYPE mysql SYSTEM "MySql-Ex1.dtd">
 <mysql>
     <customers>
         <customer customer_id="" number_of_complaints="">

@@ -1,0 +1,23 @@
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" orderid="12345"
+                     xsi:noNamespaceSchemaLocation="shiporder.xsd">
+                     
+    <orderperson>Dario Bagaluma Fernandez</orderperson>
+    <shipto>
+        <name>John Smith</name>
+        <address>123 Main St</address>
+        <city>Anytown</city>
+        <country>USA</country>
+    </shipto>
+    <item>
+        <title>Widget</title>
+        <note>Some notes about the widget</note>
+        <quantity>1</quantity>
+        <price>9.99</price>
+    </item>
+    <item>
+        <title>Gadget</title>
+        <note>Some notes about the gadget</note>
+        <quantity>2</quantity>
+        <price>19.99</price>
+    </item>
+</shiporder>

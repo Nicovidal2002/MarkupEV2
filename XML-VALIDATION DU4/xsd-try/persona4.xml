@@ -1,0 +1,9 @@
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="persona4.xsd">
+    <name>Dario</name>
+    <name>Vancoco</name>
+    <surname>Bagaluma</surname>
+    <age>20</age>
+    <birthdate>2000-01-01</birthdate>
+    <startwork>2024-02-22T08:00:00</startwork>
+</person>
