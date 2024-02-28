@@ -1,0 +1,4 @@
+<temperature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="temperature.xsd">
+    <min>2 3 5 8 9 10 15 18 20 18 15 11 12.2</min>
+</temperature>

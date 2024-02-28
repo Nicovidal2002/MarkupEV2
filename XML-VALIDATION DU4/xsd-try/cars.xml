@@ -1,0 +1,6 @@
+<cars xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="cars.xsd">
+    <car>Mercedes</car>
+    <car>Seat</car>
+    <car>Audio</car>
+</cars>

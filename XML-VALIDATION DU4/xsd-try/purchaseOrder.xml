@@ -1,0 +1,32 @@
+<purchaseOrder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="purchaseOrder.xsd">
+    <shipTo country="US">
+        <name>Alonso Inc.</name>
+        <street>456 butter</street>
+        <city>Springfield</city>
+        <state>IL</state>
+        <zip>15220</zip>
+    </shipTo>
+    <billTo country="US">
+        <name>The goods</name>
+        <street>789 Elf Avenue</street>
+        <city>Bokeixon</city>
+        <state>NYC</state>
+        <zip>67890</zip>
+    </billTo>
+    <comment>Urgent delivery requested from dario bagaluma</comment>
+    <items>
+        <item partNum="872-AA">
+            <productName>Magic mouse</productName>
+            <quantity>3</quantity>
+            <USPrice>99.99</USPrice>
+            <comment>ola</comment>
+        </item>
+        <item partNum="926-AA">
+            <productName>Gambas al ajillo</productName>
+            <quantity>1</quantity>
+            <USPrice>299.99</USPrice>
+            <shipDate>2022-10-31</shipDate>
+        </item>
+    </items>
+</purchaseOrder>
