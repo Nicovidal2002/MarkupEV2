@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="company">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="generalInfo" type="GeneralInfoType" />
+                <xs:element name="DepStaff">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="employers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="employee" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="nameAndSurname"
+                                                        type="xs:string" />
+                                                    <xs:element name="role" type="xs:string" />
+                                                    <xs:element name="sickLeave" type="xs:string" />
+                                                    <xs:element name="salary" type="xs:string" />
+                                                    <xs:element name="key" type="xs:string" />
+                                                </xs:sequence>
+                                                <xs:attributeGroup ref="attGroup" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="date" use="required" type="xs:date" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Multinacional" use="required" />
+            <xs:attribute name="Currency" type="xs:string" fixed="Euro" />
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attributeGroup name="attGroup">
+        <xs:attribute name="code" use="required" />
+        <xs:attribute name="DepName" use="required" />
+        <xs:attribute name="user" use="required" />
+    </xs:attributeGroup>
+
+    <xs:complexType name="GeneralInfoType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="numberOfEmployees" type="xs:integer" minOccurs="1"/>
+            <xs:element name="sector">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:choice>
+                            <xs:element name="education" />
+                            <xs:element name="finances" />
+                            <xs:element name="technology" />
+                        </xs:choice>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="textType">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="40" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>
