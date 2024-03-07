@@ -1,0 +1,20 @@
+<juicers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="juicers.xsd">
+    <juicer>
+        <name>Philips HR1861</name>
+        <image>machine_3.jpg</image>
+        <description>Philips HR1861 alejandro</description>
+        <warranty>true</warranty>
+        <weight>5</weight>
+        <cost>120.55</cost>
+        <retailer></retailer>
+    </juicer>
+    <juicer>
+        <name>The Nutri Juicer</name>
+        <image>pdp.jpg</image>
+        <description>The Nutri Juicer dario</description>
+        <cost>160.45</cost>
+        <cost>90.99</cost>
+        <retailer></retailer>
+    </juicer>
+</juicers>

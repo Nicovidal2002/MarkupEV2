@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNamespaceSchemaLocation="items.xsd">
+    <Item>
+        <name>Item 1</name>
+        <photo></photo>
+        <tags></tags>
+        <diameter>0</diameter>
+        <weight>0</weight>
+        <price>0</price>
+        <size>Small</size>
+    </Item>
+    <Item>
+        <name>Item 1</name>
+        <photo></photo>
+        <tags></tags>
+        <diameter>0</diameter>
+        <weight>0</weight>
+        <price>0</price>
+        <size>Small</size>
+    </Item>
+    <Item>
+        <name>Item 1</name>
+        <photo></photo>
+        <tags></tags>
+        <diameter>0</diameter>
+        <weight>0</weight>
+        <price>0</price>
+        <size>Small</size>
+    </Item>
+</Items>

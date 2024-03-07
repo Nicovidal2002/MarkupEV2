@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="cars">
-    <xs:complexType>
-        <xs:sequence>
-            <xs:element name="car" type="carType" maxOccurs="unbounded" />
-            <xs:element />
-        </xs:sequence>
-    </xs:complexType>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="car" type="carType" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
     <xs:simpleType name="carType">
         <xs:restriction base="xs:string">
-            <xs:enumaration value="Mercedes" />
+            <xs:enumeration value="Mercedes" />
             <xs:enumeration value="Seat" />
+            <xs:enumeration value="Audi" />
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>

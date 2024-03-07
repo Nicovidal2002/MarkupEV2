@@ -2,5 +2,5 @@
  xsi:noNamespaceSchemaLocation="cars.xsd">
     <car>Mercedes</car>
     <car>Seat</car>
-    <car>Audio</car>
+    <car>Audi</car>
 </cars>
